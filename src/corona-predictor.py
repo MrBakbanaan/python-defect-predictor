@@ -24,7 +24,7 @@ import seaborn as sns
 useScaler = True
 verbose = 0
 
-df1 = pd.read_csv("corona.csv")
+df1 = pd.read_csv("datasets/corona.csv")
 df1.info()
 df1.head()
 
